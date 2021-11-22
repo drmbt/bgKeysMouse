@@ -1,0 +1,22 @@
+
+**/Backup/**
+**/Media/Mov/**
+**/TDImportCache/**
+**local/Media/**
+
+*.ini
+**.ini
+
+
+#exclude everything
+local/recordings/*
+local/assets/*
+local/log/*
+
+# exception to the rule
+!local/recordings/.gitkeep 
+lib/pip/pip/__pycache__/__init__.cpython-37.pyc
+lib/pip/pip/_internal/__pycache__/__init__.cpython-37.pyc
+lib/pip/pip/_internal/utils/__pycache__/__init__.cpython-37.pyc
+lib/pip/pip/_internal/utils/__pycache__/inject_securetransport.cpython-37.pyc
+lib/pip/pip/_internal/utils/__pycache__/typing.cpython-37.pyc
