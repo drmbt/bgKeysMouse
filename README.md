@@ -10,7 +10,7 @@ These components work by leveraging the ctypes library and windll.User32.GetKeyS
 to access keyboard and mouse information when TouchDesigner is in the background;  
 by default if TD is not the in focus app the mousein and keyboardinDAT/CHOP don't run.
 
-We do this be importing the ctypes library and cooking the query every frame with an execute dat, 
+We do this by importing the ctypes library and cooking the query every frame with an execute dat, 
 which is something i like to turn off if I'm not using it by toggling of the relevant Active flag.
 
 Since we are querying the state of every key every frame, an editable query table 
